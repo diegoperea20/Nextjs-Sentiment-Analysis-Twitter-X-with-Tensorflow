@@ -24,6 +24,38 @@ The tokenizer and label in this project .public\model\Punto_2_Twitter_dataset.ip
   <img src="README-images/neutraltwet.PNG" alt="Step5">
 </p>
 
+-----
+## API
+
+```bash
+http://localhost:3000/api/sentiment
+```
+json
+
+```bash
+{
+  "inputText": "hello"
+}
+```
+
+<p align="center">
+  <img src="README-images/apipositive.PNG" alt="Step6">
+</p>
+
+<p align="center">
+  <img src="README-images/apinegative.PNG" alt="Step6">
+</p>
+
+<p align="center">
+  <img src="README-images/apineutral.PNG" alt="Step6">
+</p>
+
+<p align="center">
+  <img src="README-images/apiirrevelant.PNG" alt="Step6">
+</p>
+
+
+
 
 ----
 Convert model h5 to Tensorflowjs in ipynb
