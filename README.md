@@ -28,6 +28,10 @@ The tokenizer and label in this project .public\model\Punto_2_Twitter_dataset.ip
 ## API
 
 ```bash
+https://sentiment-analysis-twitter-x.vercel.app/api/sentiment
+```
+local
+```bash
 http://localhost:3000/api/sentiment
 ```
 json

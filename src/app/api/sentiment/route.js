@@ -9,7 +9,7 @@ export async function POST(request) {
     const { inputText } = await request.json();
 
     // Cargar modelo, tokenizer y labelEncoder desde archivos JSON
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://sentiment-analysis-twitter-x.vercel.app';
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://sentiment-analysis-twitter-x.vercel.app'; // if you local remplace https://sentiment-analysis-twitter-x.vercel.app and just use 'http://localhost:3000'
     const modelUrl = `${baseUrl}/model/model.json`;
     const tokenizeUrl = `${baseUrl}/model/tokenizer.json`;
     const labelEncoderUrl = `${baseUrl}/model/label_encoder.json`;
