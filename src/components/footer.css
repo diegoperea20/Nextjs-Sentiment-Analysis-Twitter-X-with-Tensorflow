@@ -1,0 +1,20 @@
+.div-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #232323;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.div-footer a {
+    margin-left: 5px; /* Añade un margen a la izquierda del enlace */
+    text-decoration: none; /* Remueve el subrayado si no es deseado */
+    color: white;
+}
+
+.div-footer a:hover {
+    color: #007bff;
+}
